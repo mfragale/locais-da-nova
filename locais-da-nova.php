@@ -74,6 +74,8 @@ function register_locais_posttype()
     register_post_type('locais', $post_type_args);
 }
 
+add_action('init', 'register_locais_posttype');
+
 
 /***************
  * includes

@@ -18,10 +18,6 @@ add_action('wp_enqueue_scripts', 'locais_da_nova_form_css');
 
 
 
-add_action('init', 'register_locais_posttype');
-
-
-
 /**
  * Registers doe-na-nova-nav
  */

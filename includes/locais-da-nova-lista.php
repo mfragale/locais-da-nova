@@ -99,4 +99,4 @@ $loop = new WP_Query($args);
 
 <?php else : ?>
     <p><?php esc_html_e('Sorry, no posts matched your criteria.'); ?></p>
-<?php endif;
+<?php endif; ?>
