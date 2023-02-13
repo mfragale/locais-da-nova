@@ -23,9 +23,9 @@ function locais_da_nova_lista_shortcode()
 	// Outputs the HTML to replace short code
 	ob_start();
 	include 'locais-da-nova-lista.php';
-	return ob_get_clean();
+	// return ob_get_clean();
 
-	// $output = ob_get_contents();
-	// ob_end_clean();
-	// return  $output;
+	$output = ob_get_contents();
+	ob_end_clean();
+	return  $output;
 }
