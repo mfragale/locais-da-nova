@@ -7,13 +7,6 @@ add_action('init', 'locais_da_nova_init', 10);
 
 
 /**
- * Admin page
- */
-add_action('admin_menu', 'locaisdanova_add_options_link');
-add_action('admin_init', 'locaisdanova_register_settings');
-
-
-/**
  * Add wp_enqueue_scripts hook for Javascript files
  */
 add_action('wp_enqueue_scripts', 'locais_da_nova_js');

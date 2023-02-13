@@ -80,9 +80,9 @@ function register_locais_posttype()
  ***************/
 
 //locaisdanova
-// include_once dirname(__FILE__) . '/includes/register-shortcodes.php';
-// include_once dirname(__FILE__) . '/includes/register-js.php';
-// include_once dirname(__FILE__) . '/includes/register-css.php';
-// include_once dirname(__FILE__) . '/includes/shortcodes.php';
-// include_once dirname(__FILE__) . '/includes/functions.php';
-// include_once dirname(__FILE__) . '/includes/add-actions.php';
+include_once dirname(__FILE__) . '/includes/register-shortcodes.php';
+include_once dirname(__FILE__) . '/includes/register-js.php';
+include_once dirname(__FILE__) . '/includes/register-css.php';
+include_once dirname(__FILE__) . '/includes/shortcodes.php';
+include_once dirname(__FILE__) . '/includes/functions.php';
+include_once dirname(__FILE__) . '/includes/add-actions.php';
