@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Shortcode processing for doe-na-nova-form-doar
+ * Shortcode processing for locais-da-nova-lista
  * 
  * @since 1.0.0
  * @param array $atts The attributes in the shortcode

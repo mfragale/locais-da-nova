@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Init hook. Registers shortcode doe-na-nova-form-doar.
+ * Init hook. Registers shortcode locais-da-nova-lista.
  * @since 1.0.0
  */
 function locais_da_nova_init()

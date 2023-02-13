@@ -19,7 +19,7 @@ add_action('wp_enqueue_scripts', 'locais_da_nova_form_css');
 
 
 /**
- * Registers doe-na-nova-nav
+ * Registers locais-da-nova-nav
  */
 //add_action('init', 'register_locaisdanova_menu');
 
