@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Shortcode processing for locais-da-nova-lista
+ * Shortcode processing for lista-de-locais-da-nova
  * 
  * @since 1.0.0
  * @param array $atts The attributes in the shortcode
@@ -10,7 +10,7 @@
 
 
 /*
- * SET LOCAIS SHORTCODE [locais-da-nova-lista]
+ * SET LOCAIS SHORTCODE [lista-de-locais-da-nova]
  */
 function locais_da_nova_lista_shortcode()
 {
