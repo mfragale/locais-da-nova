@@ -24,9 +24,6 @@ $locaisdanova_prefix = 'locaisdanova_';
 $locaisdanova_plugin_name = 'Locais da Nova';
 
 
-// retrieve our plugin settings from the options table
-$locaisdanova_options = get_option('locaisdanova_settings');
-
 
 ini_set('error_log', $_SERVER['DOCUMENT_ROOT'] . '../../logs/error.log');
 error_log('Locais da Nova WordPress plugin');
