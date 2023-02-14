@@ -12,7 +12,7 @@
 /*
  * SET LOCAIS SHORTCODE [lista-de-locais-da-nova]
  */
-function locais_da_nova_lista_shortcode()
+function locais_da_nova_lista_shortcode($atts)
 {
 	// Enqueue JS when this shortcode loaded.
 	wp_enqueue_script('functions-js');

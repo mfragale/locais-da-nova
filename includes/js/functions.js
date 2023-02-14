@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
 
-    //    $('body').css("background-color", "yellow");
+    //$('body').css("background-color", "yellow");
 
 
     // Locais tabs

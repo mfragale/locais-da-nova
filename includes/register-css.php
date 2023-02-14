@@ -5,7 +5,7 @@
  * @since 1.0.0
  */
 
-function locais_da_nova_form_css()
+function locais_da_nova_css()
 {
 	wp_register_style(
 		'locaisdanova-syles',
