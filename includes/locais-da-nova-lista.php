@@ -39,7 +39,7 @@ $loop = new WP_Query($args);
                                             the_excerpt();
                                         } ?>
                                     </div>
-                                    <div class="col-2 text-right"><i class="fal fa-angle-right"></i></div>
+                                    <div class="col-2 text-right"><i class="fa-light fa-angle-right"></i></div>
                                 </div>
                             </a>
 
@@ -57,7 +57,7 @@ $loop = new WP_Query($args);
                         <div class="tab-pane fade show active text-center" id="noLocalSelected" role="tabpanel" aria-labelledby="noLocalSelected-tab">
                             <div class="row h-100">
                                 <div class="col-sm-12 my-auto">
-                                    <i class="fad fa-map-marked-alt"></i>
+                                    <i class="fa-duotone fa-map-location-dot"></i>
                                     <p><?php _e('Select a campus', 'locaisdanova'); ?></p>
                                 </div>
                             </div>
