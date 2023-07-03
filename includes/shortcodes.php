@@ -15,7 +15,7 @@
 function locais_da_nova_lista_shortcode($atts)
 {
 	// Enqueue JS when this shortcode loaded.
-	wp_enqueue_script('my-functions-js');
+	wp_enqueue_script('my-functions-locais-js');
 
 	// Enqueue CSS when this shortcode loaded. 
 	wp_enqueue_style('locaisdanova-syles');

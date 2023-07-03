@@ -7,7 +7,7 @@
 function locais_da_nova_js()
 {
 	wp_register_script(
-		'my-functions-js',
+		'my-functions-locais-js',
 		plugin_dir_url(__FILE__) . 'js/dist/myfunctions-min.js',
 		array('jquery'),
 		'1.1',
